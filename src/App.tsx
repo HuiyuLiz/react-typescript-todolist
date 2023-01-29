@@ -1,6 +1,6 @@
-import React, { useState, useMemo, Component } from 'react'
+import React, { useState, useMemo } from 'react'
 // library
-import { ChakraProvider, Button, Container, Box } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
 // type
 import type { Task } from './types/task'
 // components

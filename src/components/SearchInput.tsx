@@ -1,12 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 // library
-import {
-    Input,
-    FormControl,
-    FormLabel,
-    FormHelperText,
-    FormErrorMessage,
-} from '@chakra-ui/react'
+import { Input, FormControl, FormLabel, FormHelperText } from '@chakra-ui/react'
 interface SearchInputProps<T> {
     query: string
     setQuery: React.Dispatch<any>
