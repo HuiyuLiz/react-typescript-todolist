@@ -30,6 +30,6 @@ module.exports = {
         },
     },
     rules: {
-        // Add ESLint Setting
+        'no-unused-vars': 'off',
     },
 }
