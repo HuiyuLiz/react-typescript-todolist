@@ -1,6 +1,7 @@
 import React from 'react'
 // library
 import { Input, FormControl, FormLabel, FormHelperText } from '@chakra-ui/react'
+
 interface SearchInputProps<T> {
     query: string
     setQuery: React.Dispatch<any>

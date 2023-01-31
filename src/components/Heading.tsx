@@ -1,6 +1,7 @@
 import React from 'react'
 // library
 import { Heading as ChakraHeading } from '@chakra-ui/react'
+
 interface HeadingProps {
     title?: string
 }
