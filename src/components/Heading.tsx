@@ -5,7 +5,7 @@ interface HeadingProps {
     title?: string
 }
 
-const Heading = ({ title = 'ToDo List' }: HeadingProps) => {
+const Heading = ({ title = 'To Do List' }: HeadingProps) => {
     return (
         <ChakraHeading color="red.400" my="20px">
             {title}
